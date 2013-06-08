@@ -1,0 +1,42 @@
+<% provide(:title, 'Who We Serve') %>
+
+<head>
+	<script type="text/javascript">
+		$(function() {
+		$('.linkdetails').hide();
+
+$('.link').click(function() {
+    $('.linkdetails').hide();
+    $('.linkdetails[data-link=' + $(this).data('link') + ']').fadeIn({
+        width: '200px'
+    }, 300);
+
+
+
+	});
+});
+	</script>
+</head>
+
+<body>
+<div id="what-we-do-container">
+	<div id="what-we-do-linklist">
+   	<ul>
+   			<li class="what-we-do-head-link">We proudly serve the following production houses:</li>
+      	<li><a class="link" data-link="first" href="#">link 1</a></li>
+      	<li><a class="link" data-link="second" href="#">link 2</a></li>
+      	<li><a class="link" data-link="third" href="#">link 3</a></li>
+      	<li><a class="link" data-link="fourth" href="#">link 4</a></li>
+    </ul>
+  </div>
+
+<div class="detailscontainer">
+	<div class="linkdetails" data-link="first" >content 1</div>
+	<div class="linkdetails" data-link="second" >content 2</div>
+	<div class="linkdetails" data-link="third" >content 3</div>
+	<div class="linkdetails" data-link="fourth" >content 4</div>
+</div>
+
+
+</div>
+</body>

@@ -1,3 +1,43 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+// @EDIT JAS "what we do" css
+
+#what-we-do-container {
+	height: 100%;
+}
+
+#what-we-do-linklist {
+	height: 100%;
+	width: 200px;
+	font-color: white;
+	background-color: gray;
+	float: left;
+}
+	ul {
+		list-style-type: none;
+	}
+	a {
+		color: white;
+	}
+
+.linkdetails {
+	width: 180px;
+	color: white;
+	padding: 20px;
+}
+
+.detailscontainer {
+	width: 220px;
+	height: 100%;
+	display: block;
+	float: left;
+	background-color: #111;
+	border-right: #222 1px solid;
+	color: #FFF;
+	top: 0px;
+	right: 0px;
+}
