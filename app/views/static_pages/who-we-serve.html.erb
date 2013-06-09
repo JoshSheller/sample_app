@@ -3,11 +3,11 @@
 <head>
 	<script type="text/javascript">
 		$(function() {
-		$('.linkdetails').hide();
+		$('.client-info').hide();
 
 $('.link').click(function() {
-    $('.linkdetails').hide();
-    $('.linkdetails[data-link=' + $(this).data('link') + ']').fadeIn({
+    $('.client-info').hide();
+    $('.client-info[data-link=' + $(this).data('link') + ']').fadeIn({
         width: '200px'
     }, 300);
 	});
@@ -16,19 +16,19 @@ $('.link').click(function() {
 </head>
 
 <body>
-<div id="what-we-do-container">
-	<div id="what-we-do-linklist">
+<div id="who-we-serve-container">
+	<div id="who-we-serve-linklist">
    	<ul>
-   			<li class="what-we-do-head-link">We proudly serve the following production houses:</li>
+   			<li class="who-we-serve-head-link">We proudly serve the following production houses:</li>
       	<li><a class="link" data-link="first" href="#">client 1</a></li>
       	<li><a class="link" data-link="second" href="#">client 2</a></li>
       	<li><a class="link" data-link="third" href="#">client 3</a></li>
     </ul>
   </div>
 
-<div class="detailscontainer">
-	<div class="linkdetails" data-link="first" >
-		<h6>Music Production Client A</h6>
+<div class="client-info-container">
+	<div class="client-info" data-link="first" >
+		<h6>Music Production Client 1</h6>
 		<div class="client-main-img" id="client-1-main-img"></div>
 		<div>
 			<a href='#' onclick = "document.getElementById('client-1-main-img').style.backgroundImage = 'url(http://kentwellsproductions.com/assets/pages/Headphones%20piano%20music%20for%20ads.jpg)';">
@@ -40,10 +40,11 @@ $('.link').click(function() {
 			<a href='#' onclick = "document.getElementById('client-1-main-img').style.backgroundImage = 'url(http://diskmusic.com/wp-content/uploads/2012/09/338_16.jpg)';">
 				<div class="client-thumb-3" id="client-1-thumb-3"></div>
 			</a>
-		</div>	
+			<p>Lorem ipsum dolor sit amet, cu eros eligendi mea, sea expetendis persequeris accommodare ut, mel saepe partiendo disputando ut. Eum numquam phaedrum ne, eu graece vocibus fabellas mel. Eu prompta maluisset elaboraret mei, sed et amet ferri reprimique, justo omnesque moderatius eu eum. Sit sensibus mnesarchum at, et pri molestie oportere. Agam nullam delicatissimi ex qui. Interesset appellantur eos ex, vis eu exerci utamur eruditi.</p>
+		</div>
 	</div>
-	<div class="linkdetails" data-link="second" >
-		<h6>Music Production Client B</h6>
+	<div class="client-info" data-link="second" >
+		<h6>Music Production Client 2</h6>
 		<div class="client-main-img" id="client-2-main-img"></div>
 		<div>
 			<a href='#' onclick = "document.getElementById('client-2-main-img').style.backgroundImage = 'url(http://musicintersection.com/wp-content/uploads/2012/07/slider-1.jpg)';">
@@ -55,10 +56,11 @@ $('.link').click(function() {
 			<a href='#' onclick = "document.getElementById('client-2-main-img').style.backgroundImage = 'url(http://www.ruffryders.com/main/images/Recording_Studio.jpg)';">
 				<div class="client-thumb-3" id="client-2-thumb-3"></div>
 			</a>
+			<p>Lorem ipsum dolor sit amet, cu eros eligendi mea, sea expetendis persequeris accommodare ut, mel saepe partiendo disputando ut. Eum numquam phaedrum ne, eu graece vocibus fabellas mel. Eu prompta maluisset elaboraret mei, sed et amet ferri reprimique, justo omnesque moderatius eu eum. Sit sensibus mnesarchum at, et pri molestie oportere. Agam nullam delicatissimi ex qui. Interesset appellantur eos ex, vis eu exerci utamur eruditi.</p>
 		</div>	
 	</div>
-	<div class="linkdetails" data-link="third" >
-		<h6>Music Production Client C</h6>
+	<div class="client-info" data-link="third" >
+		<h6>Music Production Client 3</h6>
 		<div class="client-main-img" id="client-3-main-img"></div>
 		<div>
 			<a href='#' onclick = "document.getElementById('client-3-main-img').style.backgroundImage = 'url(http://files.clubplanet.com/sitefiles/ArticleImages/1724/FirstClass1.jpg)';">
@@ -70,8 +72,9 @@ $('.link').click(function() {
 			<a href='#' onclick = "document.getElementById('client-3-main-img').style.backgroundImage = 'url(http://farm5.staticflickr.com/4115/4873933312_c361921ba7_z.jpg)';">
 				<div class="client-thumb-3" id="client-3-thumb-3"></div>
 			</a>
+			<p>Lorem ipsum dolor sit amet, cu eros eligendi mea, sea expetendis persequeris accommodare ut, mel saepe partiendo disputando ut. Eum numquam phaedrum ne, eu graece vocibus fabellas mel. Eu prompta maluisset elaboraret mei, sed et amet ferri reprimique, justo omnesque moderatius eu eum. Sit sensibus mnesarchum at, et pri molestie oportere. Agam nullam delicatissimi ex qui. Interesset appellantur eos ex, vis eu exerci utamur eruditi.</p>
 		</div>	
 	</div>
-</div>
+	</div>
 </div>
 </body>

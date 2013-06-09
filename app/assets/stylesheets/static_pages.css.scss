@@ -4,13 +4,13 @@
 
 
 
-// @EDIT JAS "what we do" css
+// @EDIT JAS "who-we-serve" css
 
-#what-we-do-container {
-	height: 700px;
+#who-we-serve-container {
+	height: 840px;
 }
 
-#what-we-do-linklist {
+#who-we-serve-linklist {
 	height: 100%;
 	width: 200px;
 	font-color: white;
@@ -24,7 +24,7 @@
 		color: white;
 	}
 
-.linkdetails {
+.client-info {
 	width: 93%;
 	height: 100%;	
 	color: white;
@@ -128,7 +128,7 @@
 	background-size: 100% 100%;
 }
 
-.detailscontainer {
+.client-info-container {
 	width: 77%;
 	height: 100%;
 	display: block;
@@ -150,7 +150,7 @@
 	margin-right: 20px;
 }
 
-.team-member#jon {
+.team-member#fifth {
 	margin-right: 0;
 }
 
@@ -168,77 +168,77 @@
 	margin-bottom: 5px;
 }
 
-.team-member#kevin div {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Kevin-Isett-BW.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#kevin.color-img div {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Kevin-Isett.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#kevin div:hover {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Kevin-Isett.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#warren div {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Warren-Kett-BW.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#warren.color-img div {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Warren-Kett.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#warren div:hover {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Warren-Kett.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#tillman div {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Tillman-Gerngross-BW.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#tillman.color-img div {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Tillman-Gerngross.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#tillman div:hover {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Tillman-Gerngross.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#errik div {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Errik-Anderson-BW.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#errik.color-img div {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Errik-Anderson.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#errik div:hover {
-	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Errik-Anderson.png) no-repeat center top;
-	background-size: contain;
-}
-
-.team-member#jon div {
+.team-member#first div {
 	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller-BW.png) no-repeat center top;
 	background-size: contain;
 }
 
-.team-member#jon.color-img div {
+.team-member#first.color-img div {
 	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
 	background-size: contain;
 }
 
-.team-member#jon div:hover {
+.team-member#first div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#second div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#second.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#second div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#third div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#third.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#third div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#fourth div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#fourth.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#fourth div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#fifth div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#fifth.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#fifth div:hover {
 	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
 	background-size: contain;
 }
