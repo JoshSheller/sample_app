@@ -1,0 +1,51 @@
+<% provide(:title, 'Management Team') %>
+
+<script>
+	var _hidediv = null;
+	var _removecolor = null;
+	function showdiv(id, imgid) {
+  	  if(_hidediv)
+    	    _hidediv();
+		if(_removecolor)
+			_removecolor();
+    	var div = document.getElementById(id);
+    	div.style.display = 'block';
+    	_hidediv = function () { div.style.display = 'none'; };
+		var imgdiv = document.getElementById(imgid);
+		imgdiv.className += ' color-img';
+		_removecolor = function () { imgdiv.className = ''; imgdiv.className = 'team-member' };
+	}
+	</script>
+
+
+<div class="team-member" id="kevin"><a onclick="showdiv('kevin-bio', 'kevin');"><div><h4>Kevin Isett</h4></div></a><h6>Co-Founder</h6><h6>CEO</h6></div>
+<div class="team-member" id="warren"><a onclick="showdiv('warren-bio', 'warren');"><div><h4>Warren Kett</h4></div></a><h6>Co-Founder</h6><h6>CSO</h6></div>
+<div class="team-member" id="tillman"><a onclick="showdiv('tillman-bio', 'tillman');"><div><h4>Tillman Gerngross</h4></div></a><h6>Co-Founder</h6><h6>Board Chairman</h6></div>
+<div class="team-member" id="errik"><a onclick="showdiv('errik-bio', 'errik');"><div><h4>Errik Anderson</h4></div></a><h6>Co-Founder</h6><h6>Board Member</h6></div>
+<div class="team-member" id="jon"><a onclick="showdiv('jon-bio', 'jon');"><div><h4>Jonathan Sheller</h4></div></a><h6>Co-Founder</h6><h6>Director, Finance & Ops</h6></div>
+<div class="team-member-details hide" id="kevin-bio">
+<h3>Kevin Isett</h3>
+<h5>Co-Founder & CEO</h5>
+<p>Kevin started his career at Merck...</p>
+</div>
+<div class="team-member-details hide" id="warren-bio">
+<h3>Warren Kett</h3>
+<h5>Co-Founder & CSO</h5>
+<p>Warren started his career at ...</p>
+</div>
+<div class="team-member-details hide" id="tillman-bio">
+<h3>Tillman Gerngross</h3>
+<h5>Co-Founder & Board Chairman</h5>
+<p>Tillman started his career at ...</p>
+</div>
+<div class="team-member-details hide" id="errik-bio">
+<h3>Errik Anderson</h3>
+<h5>Co-Founder & Board Member</h5>
+<p>Errik started his career at ...</p>
+</div>
+<div class="team-member-details hide" id="jon-bio">
+<h3>Jonathan Sheller</h3>
+<h5>Co-Founder & Director of Finance & Operations</h5>
+<p>Jon started his career at ...</p>
+</div>
+

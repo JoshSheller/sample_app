@@ -7,7 +7,7 @@
 // @EDIT JAS "what we do" css
 
 #what-we-do-container {
-	height: 100%;
+	height: 700px;
 }
 
 #what-we-do-linklist {
@@ -25,13 +25,111 @@
 	}
 
 .linkdetails {
-	width: 180px;
+	width: 93%;
+	height: 100%;	
 	color: white;
 	padding: 20px;
 }
+	h6 {
+		font-size: 28px;
+		text-align: center;
+	}
+	.client-main-img {
+		width: 100%;
+		height: 400px;
+		background-color: white;
+	}
+	.client-thumb-1 {
+		width: 20%;
+		height: 150px;
+		display: inline-block;
+		margin-top: 20px;
+		margin-right: 19px;
+		width: 209px;
+		height: 209px;
+		background-color: white;
+}
+	.client-thumb-2 {
+		width: 20%;
+		height: 150px;
+		display: inline-block;
+		margin-top: 20px;
+		margin-right: 20px;
+		width: 209px;
+		height: 209px;
+		background-color: white;
+}
+	.client-thumb-3 {
+		width: 20%;
+		height: 150px;
+		display: inline-block;
+		width: 208px;
+		height: 209px;
+		background-color: white;
+}
+#client-1-main-img {
+	background-image:url('http://kentwellsproductions.com/assets/pages/Headphones%20piano%20music%20for%20ads.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-1-thumb-1 {
+	background-image:url('http://kentwellsproductions.com/assets/pages/Headphones%20piano%20music%20for%20ads.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-1-thumb-2 {
+	background-image:url('http://dynamicproducer.com/wp-content/uploads/2012/08/MusicProductionKnobs.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-1-thumb-3 {
+	background-image:url('http://diskmusic.com/wp-content/uploads/2012/09/338_16.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-2-main-img {
+	background-image:url('http://musicintersection.com/wp-content/uploads/2012/07/slider-1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-2-thumb-1 {
+	background-image:url('http://musicintersection.com/wp-content/uploads/2012/07/slider-1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-2-thumb-2 {
+	background-image:url('http://mtsmusicgroup.weebly.com/uploads/1/3/1/8/13182189/6328577_orig.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-2-thumb-3 {
+	background-image:url('http://www.ruffryders.com/main/images/Recording_Studio.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-3-main-img {
+	background-image:url('http://files.clubplanet.com/sitefiles/ArticleImages/1724/FirstClass1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-3-thumb-1 {
+	background-image:url('http://files.clubplanet.com/sitefiles/ArticleImages/1724/FirstClass1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-3-thumb-2 {
+	background-image:url('https://sphotos-a.xx.fbcdn.net/hphotos-ash4/p480x480/384514_10151044691246791_464170861_n.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#client-3-thumb-3 {
+	background-image:url('http://farm5.staticflickr.com/4115/4873933312_c361921ba7_z.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
 
 .detailscontainer {
-	width: 220px;
+	width: 77%;
 	height: 100%;
 	display: block;
 	float: left;
@@ -40,4 +138,135 @@
 	color: #FFF;
 	top: 0px;
 	right: 0px;
+}
+
+
+// @EDIT JAS "management-team" css
+
+.team-member {
+	width: 164px;
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 20px;
+}
+
+.team-member#jon {
+	margin-right: 0;
+}
+
+.team-member a {
+	cursor: pointer;
+}
+
+.team-member p {
+	display: none;
+}
+
+.team-member div {
+	height: 164px;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.team-member#kevin div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Kevin-Isett-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#kevin.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Kevin-Isett.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#kevin div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Kevin-Isett.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#warren div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Warren-Kett-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#warren.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Warren-Kett.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#warren div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Warren-Kett.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#tillman div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Tillman-Gerngross-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#tillman.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Tillman-Gerngross.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#tillman div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Tillman-Gerngross.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#errik div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Errik-Anderson-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#errik.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Errik-Anderson.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#errik div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Errik-Anderson.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#jon div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller-BW.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#jon.color-img div {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member#jon div:hover {
+	background: url(http://www.jonsheller.com/avitide/wp-content/uploads/2013/04/Jon-Sheller.png) no-repeat center top;
+	background-size: contain;
+}
+
+.team-member h4 {
+	width: 164px;
+	background: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	text-align: center;
+	position: absolute;
+  	bottom: 0px;
+	left: 0;
+	margin: 0;
+	line-height: 24px;
+}
+
+.team-member h6 {
+	font-family: 'Century Gothic', sans-serif;
+	text-align: center;
+	margin: 0 auto;	
+	line-height: 18px;
+	font-size: 13px;
+}
+
+.team-member-details {
+	float: left;
+}
+
+.team-member-details h3 {
+	margin-bottom: 0px;
 }
