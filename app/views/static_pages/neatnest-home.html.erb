@@ -1,0 +1,259 @@
+
+<div id="container">
+<head>
+
+<link rel="stylesheet" type="text/css" href="neatnest.css" media="screen" />
+
+	<script type="text/javascript">
+		$(function() {
+		$('.client-info').hide();
+
+$('.link').click(function() {
+    $('.client-info').hide();
+    $('#home-page').hide();
+    $('.client-info[data-link=' + $(this).data('link') + ']').fadeIn({
+        width: '200px'
+    }, 300);
+    $('#home-page[data-link=' + $(this).data('link') + ']').fadeIn({
+        width: '200px'
+    }, 300);
+	});
+});
+	</script>
+</head>
+
+<div id="header-container">
+<div id="header-top-right-arrow"></div>
+<a class="link" id="home-link" data-link="first" href="#">
+	<div id="neatnest-image"></div>
+</a>
+<div id="header-right-container">
+	<div id="header-right-top">
+		<div id="header-right-top-first">
+			<div id="gold-free-underline"></div>
+			Call today for a free <br/>at home consultation!
+		</div>
+		<div id="gold-arrow"></div>
+		<div id="header-right-top-second">
+			(443) 824-6754
+		</div>
+		<div id="header-right-top-third">
+			<div id="header-twitter-icon">
+			</div>
+			<div id="header-facebook-icon">
+			</div>
+			<div id="header-pinterest-icon">
+			</div>
+		</div>
+	</div>
+	<div id="header-right-bottom">
+		<div id="header-right-bottom-first">
+			<a class="link" data-link="second" href="#">Services</a>
+		</div>
+		<div id="header-right-bottom-second">
+			<a class="link" data-link="third" href="#">About Us</a>
+		</div>
+		<div id="header-right-bottom-third">
+			<a class="link" data-link="fourth" href="#">Testimonials</a>
+		</div>
+		<div id="header-right-bottom-fourth">
+			<a class="link" data-link="fifth" href="#">FAQs</a>
+		</div>
+		<div id="header-right-bottom-fifth">
+			<a class="link" data-link="sixth" href="#">Contact</a>
+		</div>
+	</div>
+</div>
+<div id="gold-divider">
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</div>
+</div>
+<div id="home-page" data-link="first">
+<ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+		<div id="first-image" class="slide">
+        </div>
+		<div class="nav">
+			<label for="img-6" class="prev">&#x2039;</label>
+			<label for="img-2" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div id="second-image" class="slide">
+          
+        </div>
+		<div class="nav">
+			<label for="img-1" class="prev">&#x2039;</label>
+			<label for="img-3" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8068/8250438572_d1a5917072_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-2" class="prev">&#x2039;</label>
+			<label for="img-4" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8061/8237246833_54d8fa37f0_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-3" class="prev">&#x2039;</label>
+			<label for="img-5" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-5" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8055/8098750623_66292a35c0_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-4" class="prev">&#x2039;</label>
+			<label for="img-6" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-6" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8195/8098750703_797e102da2_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-5" class="prev">&#x2039;</label>
+			<label for="img-1" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+    </li>
+</ul>
+
+<div id="mission-statement">
+	Our mission, passion, & all out obsession is committing to excellence in cleaning our homes with efficiency and enthusiasm, while sustaining and respecting the environment.
+</div>
+<div id="coupon/tricks">
+	<div id="coupon"></div>
+	<div id="tips-tricks"></div>
+</div>
+</div>
+
+<div id="services-page" class="client-info" data-link="second">
+	
+</div>
+
+<div id="about-us-page" class="client-info" data-link="third">
+	<div id="neatnest-quote">"We at The Neat Nest are committed to excellence in cleaning our homes with <br/> efficiency and enthusiasm, while sustaining and respecting the environment."</div>
+
+	<div id="about-left">
+		<div id="april-photo">
+			<div id="gold-circle">
+				<p>April Duberry<p>
+			</div>
+		</div>
+		<div id="note-from-april">
+			<p>
+				A note from April:
+			</p>
+			<p>
+				Thank you so much for visiting The Neat Nest and considering a modern approach to maintaining a beautiful home. I know how exciting yet frustrating the process of selecting a maid service can be, and I hope that we can help make things a little more pleasant for you.
+			</p>
+			<p>
+				If you have any questions, you can contact me directly here at
+				<br/>
+				april@neatnestmaidservice.com
+				<br/>
+				and of course, call me directly at
+			</p>
+			<p>
+				(443) 824-6754
+			</p>
+			<p>
+				and we will get to customizing the perfect home cleaning plan for you.
+				<br/>
+				I have a well managed and clean home, but the process of getting there wasn't easy. It is something that I have refined over time, through much trial and error. We're all in a constant struggle to find the balance between work and personal life. The ongoing work of properly maintaining a home can be both daunting and extremely time consuming. It's my hope that our industry experience combined with our personalized touches, can do the same for you and your lifestyle; just as it continues to do for mine. Ultimately creating for you a neater nest, and allow you more time for the people and things that really matter to you!
+				<br/>
+				xx
+			</p>
+			<div id="april-signature"></div>
+		</div>
+	</div>
+
+	<div id="about-right">
+		<p>
+			The Neat Nest is a family owned maid service since 1994. Originally named 'Clean Star' & owned by Herbert & Estelle Duberry, the entire family was involved.
+		</p>
+		<p>
+			April began working for the business from the beginning & was eventually promoted to management in 2007, her parents decided to pursue their part time ventures fully. Her father a full time ministry & her mother, a full time elementary school teacher.
+		</p>
+		<p>
+			After completing her degree at The University of Delaware, April purchased her parents' client base & formed The Neat Nest in 2008.
+		</p>
+		<p>
+			Her parents remain involved as advisors to this day. Carrying over her parents commitment to excellence, April had the idea of fusing traditional cleaning methods with modern technology. With the goal of facilitating the most efficient cleaning process possible. All of this while sustaining & respecting the environment.
+		</p>
+		<p>
+			Continuing the family tradition, April's husband Tony, is now an integral part of the company. They are excited about the future of the company & the scope of its potential!
+		</p>
+
+		<div id="specialists-photo">
+			<div id="gold-circle">
+				<p>NeatNest Cleaning Specialists<p>
+			</div>
+		</div>
+
+		<p>
+			Our team members are cleaning specialists. They are highly trained professionals, who have a passion for the beautification of nests. They all undergo background & drug testing, not only in the hiring process, but throughout the tenor.
+		</p>
+		<p>
+			Where applicable they also undergo scheduled driver record evaluations. Taking personal ownership of their work, they also share our core passions about the details. Our cleaning specialists are engaging & pet friendly!
+		</p>
+
+	</div>
+</div>
+
+<div id="contact-page" class="client-info" data-link="sixth">
+	<div id="contact-header">
+		<p>To schedule a complimentary estimate, call (443) 824-6754. We can be reached Monday through Friday 8am-6pm EST. We very much look forward to speaking with you & assisting you with any needs that you may have!
+	</div>
+	<div id="contact-jotform">
+		<script type="text/javascript" src="http://form.jotform.co/jsform/32857152838867"></script>
+	</div>
+
+
+	
+</div>
+
+<div id="home-footer">
+	<div id="footer-address">The Neat Nest<br/>6030 Daybreak Circle, Suite A150<br/>Clarksville, MD 21029<br/>(443) 824-6754
+	</div>
+	<div id="footer-social-media-icons">
+		<div id="footer-twitter-icon" class="circular"></div>
+		<div id="footer-facebook-icon" class="circular"></div>
+		<div id="footer-pinterest-icon" class="circular"></div>
+	</div>
+	<p id="footer-credits">2013 Neat Nest Maid Service / Design by Gia + Tim / Development by Josh Sheller</p>
+	<div id="footer-mail-img"></div>
+	<p id="join-mail">Join our mailing list:</p>
+	<div id="email-form">
+		<script type="text/javascript" src="http://form.jotform.co/jsform/32854996146872"></script>
+	</div>
+
+</div>
+</div>
