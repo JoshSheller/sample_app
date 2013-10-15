@@ -1,13 +1,15 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'pg', '0.12.2'
+gem 'pg'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
-gem 'rails_12factor', group: :production
+
+gem 'rails_12factor'
+
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
@@ -35,3 +37,5 @@ group :test do
   gem 'cucumber-rails', '1.2.1', :require => false
   gem 'database_cleaner', '0.7.0'
 end
+
+ruby '2.0.0'
