@@ -595,7 +595,6 @@ input:checked + .slide-container .nav label { display: block; }
 	position: relative;
 	border-radius: 100%;
 	display: inline-block;
-	bds
 }
 
 .nav-dots .nav-dot:hover {
