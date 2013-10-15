@@ -2,7 +2,7 @@ SampleApp::Application.routes.draw do
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
 
-  root to: 'static_pages#home'
+  root to: 'static_pages#neatnest-home'
 
   match '/who', to: 'static_pages#who-we-serve'
   match '/team', to: 'static_pages#management-team'
