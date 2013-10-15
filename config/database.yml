@@ -1,4 +1,5 @@
 development:
+  host: localhost
   adapter: postgresql
   encoding: utf8
   database: sample_project_development
@@ -7,6 +8,7 @@ development:
   password: 
 
 test: &test
+  host: localhost
   adapter: postgresql
   encoding: utf8
   database: sample_project_test
