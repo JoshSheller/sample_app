@@ -1,31 +1,48 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="navbar-inner">
-    <div class="container">
-      <%= link_to "Sheller Coding", root_path, id: "logo" %>
-      <nav>
-        <ul class="nav pull-right">
-          <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "Help", help_path %></li>
-          <% if signed_in? %>
-            <li><%= link_to "Users", users_path %></li>
-            <li id="fat-menu" class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                Account <b class="caret"></b>
-              </a>
-              <ul class="dropdown-menu">
-                <li><%= link_to "Profile", current_user %></li>
-                <li><%= link_to "Settings", edit_user_path(current_user) %></li>
-                <li class="divider"></li>
-                <li>
-                  <%= link_to "Sign out", signout_path, method: "delete" %>
-                </li>
-              </ul>
-            </li>
-          <% else %>
-            <li><%= link_to "Sign in", signin_path %></li>
-          <% end %>
-        </ul>
-      </nav>
+  <div id="header-container">
+<div id="header-top-right-arrow"></div>
+<a class="link" id="home-link" data-link="first" href="#">
+  <div id="neatnest-image"></div>
+</a>
+<div id="header-right-container">
+  <div id="header-right-top">
+    <div id="header-right-top-first">
+      <div id="gold-free-underline"></div>
+      Call today for a free <br/>at home consultation!
+    </div>
+    <div id="gold-arrow"></div>
+    <div id="header-right-top-second">
+      (443) 824-6754
+    </div>
+    <div id="header-right-top-third">
+      <div id="header-twitter-icon">
+      </div>
+      <div id="header-facebook-icon">
+      </div>
+      <div id="header-pinterest-icon">
+      </div>
     </div>
   </div>
+  <div id="header-right-bottom">
+    <div id="header-right-bottom-first">
+      <a class="link" data-link="second" href="#">Services</a>
+    </div>
+    <div id="header-right-bottom-second">
+      <a class="link" data-link="third" href="#">About Us</a>
+    </div>
+    <div id="header-right-bottom-third">
+      <a class="link" data-link="fourth" href="#">Testimonials</a>
+    </div>
+    <div id="header-right-bottom-fourth">
+      <a class="link" data-link="fifth" href="#">FAQs</a>
+    </div>
+    <div id="header-right-bottom-fifth">
+      <a class="link" data-link="sixth" href="#">Contact</a>
+    </div>
+  </div>
+</div>
+<div id="gold-divider">
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</div>
+</div>
 </header>
