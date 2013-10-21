@@ -4,7 +4,6 @@ body {
 
 #container {
 	width: 100%;
-	padding-top: 10%;
 	font-family: GeoSans Light;
 	color:#00005C;
 }
@@ -464,6 +463,16 @@ body {
 #testimonials-page {
 	margin-top:12%;
 }
+
+#testimonials-filler-image {
+	background: url('testimonials.jpg');
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+	height:918px;
+	width:100%;
+	margin-left:12%;
+}
+
 #faqs-page {
 	margin-top:12%;
 }
