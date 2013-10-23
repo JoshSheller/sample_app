@@ -59,18 +59,20 @@ body {
 }
 
 #neatnest-image {
-	width:26%;
-	height:100%;
+	width:22%;
+	height:83%;
 	background: url('logo.jpg');
 	background-repeat: no-repeat;
 	display:inline-block;
 	float:left;
 	background-size: cover;
+	margin-top:1%;
+	margin-right:4%;
 }
 
 #header-right-container {
 	width: 69%;
-	height:100%;
+	height:90%;
 	display:inline-block;
 }
 
@@ -148,7 +150,7 @@ body {
 
 #header-right-bottom {
 	width: 100%;
-	height:78%;
+	height:60%;
 	display:inline-block;
 }
 	div a {
@@ -157,7 +159,7 @@ body {
 	}
 
 #header-right-bottom-first {
-	width:11%;
+	width:9%;
 	height:100%;
 	display:block;
 	float:left;
@@ -184,7 +186,7 @@ body {
 }
 
 #header-right-bottom-third {
-	width:12%;
+	width:10%;
 	height:100%;
 	display:block;
 	float:left;
