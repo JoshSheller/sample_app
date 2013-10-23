@@ -373,8 +373,22 @@ body {
 	margin-left:13%;
 	width:800px;
 }
+#services-filler-image {
+	background: url('services-page.jpg');
+	width: 600px;
+	height: 1414px;
+	background-size: cover;
+	margin-left: 97px;
+}
+#neatnest-girls {
+	background: url('neatnest-girls.jpg');
+	width: 539px;
+	height: 400px;
+	background-size: cover;
+	margin-left: 97px;
+}
 #about-us-page {
-	margin-top:17%;
+	margin-top:12%;
 	margin-bottom:10%;
 	width:870px;
 	height:1143px;
@@ -482,10 +496,32 @@ body {
 }
 
 #faqs-page {
-	margin-top:12%;
+}
+#faq-1 {
+	background: url('faq-1.jpg');
+	width: 646px;
+	height: 117px;
+	background-size: contain;
+	margin-left: 153px;
+	background-repeat: no-repeat;
+	margin-top:100px;
+}
+#faq-2 {
+	background: url('faq-2.jpg');
+	width: 420px;
+	height: 900px;
+	background-size: cover;
+	margin-left: 255px;
+}
+#faq-3 {
+	background: url('faq-3.jpg');
+	width: 420px;
+	height: 790px;
+	background-size: cover;
+	margin-left: 255px;
 }
 #contact-page {
-	margin-top:12%;
+	margin-top:8%;
 	margin-left:9%;
 }
 
