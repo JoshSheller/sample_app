@@ -2,10 +2,20 @@ body {
 	background-color:white;
 }
 
+#stripe-background {
+	background: url('Stripe_Background.jpg');
+}
+
+.container {
+	width:703px;
+}
+
 #container {
 	width: 100%;
+	height:100%;
 	font-family: GeoSans Light;
 	color:#003663;
+	overflow:hidden;
 }
 	div {
 		color:#003663;
@@ -51,27 +61,30 @@ body {
 
 #header-container {
 	display: block;
-	height: 200px;
+	height: 140px;
 	width: 1000px;
-	padding-top: 50px;
 	color: black;
-	font-size: 20px;
+	font-size: 16px;
+	position:relative;
+	right:18px;
 }
 
 #neatnest-image {
-	width:22%;
-	height:83%;
+	width:188px;
+	height:108px;
 	background: url('logo.jpg');
 	background-repeat: no-repeat;
 	display:inline-block;
 	float:left;
 	background-size: cover;
 	margin-top:1%;
-	margin-right:4%;
+	margin-right:6%;
+	position:relative;
+	left:62px;
 }
 
 #header-right-container {
-	width: 69%;
+	width: 600px;
 	height:90%;
 	display:inline-block;
 }
@@ -89,24 +102,23 @@ body {
 	display:block;
 	float:left;
 	background-repeat: no-repeat;
-	margin-left:3%;
-	padding-top:0%;
+	margin-left:11%;
+	padding-top:1%;
 }
 
 #header-right-top-second {
-	margin-top:12px;
-	width:33%;
-	height:27%;
+	margin-top:17px;
+	width:143px;
+	height:15px;
 	display:block;
 	float:left;
 	background: url('phone_icon.jpg');
 	background-repeat: no-repeat;
-	margin-left:-3%;
-	padding-left: 6%;
-	padding-top:.5%;
+	margin-left:-9%;
+	padding-left:4%;
 	font-weight:bold;
 	background-size:contain;
-	font-size: 15px;
+	font-size:13px;
 }
 
 #header-right-top-third {
@@ -114,11 +126,14 @@ body {
 	height:100%;
 	display:block;
 	float:left;
+	position:relative;
+	bottom:8px;
+	right:13px;
 }
 
 #header-twitter-icon {
-	width:20%;
-	height:100%;
+	width:27px;
+	height:27px;
 	display:block;
 	float:left;
 	background: url('twitter_top_icon.jpg');
@@ -127,8 +142,8 @@ body {
 }
 
 #header-facebook-icon {
-	width:20%;
-	height:100%;
+	width:27px;
+	height:27px;
 	display:block;
 	float:left;
 	background: url('facebook_top_icon.jpg');
@@ -138,14 +153,14 @@ body {
 }
 
 #header-pinterest-icon {
-	width:20%;
-	height:100%;
+	width:27px;
+	height:27px;
 	display:block;
 	float:left;
 	background: url('pinterest_top_icon.jpg');
 	background-repeat: no-repeat;
 	background-size: contain;
-	margin-left:3%;
+	margin-left:2%;
 }
 
 #header-right-bottom {
@@ -159,113 +174,125 @@ body {
 	}
 
 #header-right-bottom-first {
-	width:9%;
+	width:50px;
 	height:100%;
 	display:block;
 	float:left;
 	background: url('Service_Icon.jpg');
 	background-repeat: no-repeat;
-	padding-top:6%;
+	padding-top:4%;
 	padding-left:0%;
 	background-size: contain;
 	margin-left:5%;
 }
 
 #header-right-bottom-second {
-	width:13%;
-	height:64%;
+	height:50px;
+	bottom:0px;
+	position:relative;
 	display:block;
 	float:left;
 	background: url('About_Us_Icon.jpg');
 	background-repeat: no-repeat;
 	background-position:center;
-	padding-top:6%;
-	padding-left:1%;
+	padding-top:4%;
+	padding-left:0%;
 	margin-left:5%;
 	background-size: contain;
 }
 
 #header-right-bottom-third {
-	width:10%;
+	width:61px;
 	height:100%;
 	display:block;
 	float:left;
+	position:relative;
+	left:3px;
 	background: url('Testimonial_Icon.jpg');
 	background-repeat: no-repeat;
-	padding-top:6%;
+	padding-top:4%;
 	padding-left:0%;
 	background-size: contain;
 	margin-left:5%;
 }
 
 #header-right-bottom-fourth {
-	width:11%;
-	height:65%;
+	width:39px;
+	height:100%;
 	display:block;
 	float:left;
 	background: url('FAQ_Icon.jpg');
 	background-repeat: no-repeat;
-	padding-top:6%;
+	padding-top:4%;
 	padding-left:0%;
-	margin-left: 9%;
+	margin-left: 7.5%;
 	background-size: contain;
 }
 
 #header-right-bottom-fifth {
-	width:11%;
-	height:65%;
+	width:43px;
+	height:100%;
 	display:block;
 	float:left;
 	background: url('Contact_Icon.jpg');
 	background-repeat: no-repeat;
-	padding-top:6%;
-	padding-left:0%;
+	padding-top:4%;
+	padding-left:0.3%;
 	background-size: contain;
-	margin-left:4%;
+	margin-left:5%;
 }
 
 #gold-divider {
 	background: url('Gold_Top_Divider.jpg');
 	background-repeat: no-repeat;
-	width:100%;
+	width:667px;
 	height:100%;
 	display:block;
-	margin-top:3%;
+	margin-top:-2%;
+	position:relative;
+	left:44px;
 	text-decoration:overline;
 }
 
 #first-image {
-	background: url('HP_Slide.jpg');
+	background: url('HP_Slide_1.jpg');
 	background-repeat: no-repeat;
 	background-size:cover;
+	width:650px;
+	height:305px;
 }
 
 #second-image {
-	background: url('HP_Slide3.jpg');
+	background: url('HP_Slide_2.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:586px;
+	height:100%;
+	margin-left:33px;
 }
 
 #mission-statement {
-	width:76%;
 	text-align:center;
-	margin-left:18%;
-	margin-bottom:2%;
-	font-size:19px;
+	margin-left:20px;
+	margin-bottom:10px;
+	font-size:17px;
 }
 
 #coupon {
-	width: 505px;
+	width: 430px;
 	height: 171px;
 	background: url('Coupon_.jpg');
 	background-repeat: no-repeat;
 	display:block;
 	float:left;
 	background-size: contain;
-	margin-left:13%;
+	margin-left:37px;
+	margin-bottom:27px;
 }
 
 #tips-tricks {
 	width:220px;
-	height:171px;
+	height:146px;
 	background: url('Tips_Tricks_Square.jpg');
 	background-repeat: no-repeat;
 	display:block;
@@ -273,37 +300,50 @@ body {
 }
 
 #coupon-tricks {
+}
+
+#footer-container {
+	position:absolute;
+	height:215px;
 	width:100%;
-	height:50%;
+	bottom:0;
+	left:0;
 }
 
 #home-footer {
-	width: 863px;
-	height: 187px;
-	background: url('Light_Blue_Scallop_border.jpg');
+	width: 100%;
+	height: 159px;
+    background: url('Blue_Footer.jpg');
 	background-repeat: no-repeat;
 	display:inline-block;
 	background-size: cover;
-	margin-top:3%;
-	margin-left:10%;
+	position:relative;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+	margin-top:30px;
+	top:8px;
 }
 
 #footer-address {
-	padding-left:5%;
-	padding-top:3%;
+	left:6%;
+	top:40px;
+	position:absolute;
+	font-size:12px;
 }
 
 #footer-social-media-icons {
-	width:21%;
-	height:19%;
-	margin-left:85%;
+	width:117px;
+	height:37px;
 	position:relative;
-	bottom:31%;
+	float:right;
+	right:87px;
+	top:32px;
 }
 
 #footer-twitter-icon {
-	width:20%;
-	height:100%;
+	width:37px;
+	height:37px;
 	display:block;
 	float:left;
 	background: url('Twitter_Bottom_Icon.jpg');
@@ -312,8 +352,8 @@ body {
 }
 
 #footer-facebook-icon {
-	width:20%;
-	height:100%;
+	width:37px;
+	height:37px;
 	display:block;
 	float:left;
 	background: url('Facebook_Bottom_Icon.jpg');
@@ -323,8 +363,8 @@ body {
 }
 
 #footer-pinterest-icon {
-	width:20%;
-	height:100%;
+	width:37px;
+	height:37px;
 	display:block;
 	float:left;
 	background: url('Pinterest_Bottom_Icon.jpg');
@@ -334,36 +374,65 @@ body {
 }
 
 #footer-credits {
-	padding-left:33%;
-	font-size:13px;
+	right:175px;
+	top:123px;
+	font-size:11.5px;
+	position:absolute;
+	display:inline-block;
+	left:24%;
+	width:398px;
+}
+
+#footer-mail-container {
+	right:0;
 	position:relative;
-	bottom:9%;
+	display:inline-block;
+	height:39px;
+	width:100%;
+	overflow:hidden;
+	bottom:-4px;
+}
+
+#footer-mail-container-background {
+	position:absolute;
+	background-color:#cee1f0;
+	width:400px;
+	height:100%;
+	right:0;
 }
 
 #footer-mail-img {
 	background: url('Envelope_Bottom_Icon.jpg');
 	background-repeat:no-repeat;
-	height:12%;
-	margin-left:51.1%;
+	height:30px;
+	width:30px;
 	position:relative;
-	bottom:5.7%;
 	background-size:contain;
+	float:right;
+	display:inline-block;
+	top:9px;
+	left:62px;
 }
 
 #email-form {
 	position:relative;
-	bottom:66%;
-	left:52%;
+	bottom:41px;
+	float:right;
+	display:inline-block;
+	height:100px;
+	left:43px;
 }
 
 #join-mail {
-	padding-left:56.5%;
+	float:right;
 	position:relative;
-	bottom:18%;
+	display:inline-block;
+	left:70px;
+	top:9px;
 }
 
 #home-page {
-	margin-top:16%;
+	margin-top:7.5%;
 }
 
 #home-link {
@@ -371,38 +440,38 @@ body {
 	height:100%;
 }
 #services-page {
-	margin-top:12%;
-	margin-left:13%;
+	margin-top:42px;
+	margin-left:83px;
 	width:800px;
 }
 #services-filler-image {
 	background: url('services-page.jpg');
-	width: 600px;
-	height: 1414px;
+	width: 489px;
+	height: 1179px;
 	background-size: cover;
-	margin-left: 97px;
 }
 #neatnest-girls {
 	background: url('neatnest-girls.jpg');
-	width: 539px;
-	height: 400px;
+	width: 489px;
+	height: 305px;
 	background-size: cover;
-	margin-left: 97px;
 }
 #about-us-page {
 	margin-top:12%;
 	margin-bottom:10%;
 	width:870px;
-	height:1143px;
+	height:841px;
 }
 
 #about-us-filler-image {
 	background: url('About_Us.jpg');
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
-	height:1141px;
-	width:857px;
-	margin-left:5%;
+	height:911px;
+	width:708px;
+	position:relative;
+	right:23px;
+	bottom:58px;
 }
 	#neatnest-quote {
 		color:white;
@@ -485,46 +554,45 @@ body {
 				padding-top:9%;
 			}
 #testimonials-page {
-	margin-top:12%;
+	margin-top:29px;
 }
 
 #testimonials-filler-image {
 	background: url('Testimonials.jpg');
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
-	height:1277px;
-	width:772px;
-	margin-left:10%;
+	height:1100px;
+	width:653px;
 }
 
 #faqs-page {
 }
 #faq-1 {
 	background: url('faq-1.jpg');
-	width: 646px;
+	width: 619px;
 	height: 117px;
 	background-size: contain;
-	margin-left: 153px;
+	margin-left: 32px;
 	background-repeat: no-repeat;
-	margin-top:100px;
+	margin-top:32px;
 }
 #faq-2 {
 	background: url('faq-2.jpg');
-	width: 420px;
-	height: 900px;
+	width:359px;
+	height:766px;
 	background-size: cover;
-	margin-left: 255px;
+	margin-left:158px;
 }
 #faq-3 {
 	background: url('faq-3.jpg');
-	width: 420px;
-	height: 790px;
+	width:349px;
+	height:676px;
 	background-size: cover;
-	margin-left: 255px;
+	margin-left:159px;
 }
 #contact-page {
-	margin-top:8%;
-	margin-left:9%;
+	margin-top:20px;
+	margin-left:63px;
 }
 
 #contact-header p {
@@ -532,10 +600,16 @@ body {
 	padding-top:4%;
 	padding-right:6%;
 	padding-left:6%;
+	position:relative;
+	right:31px;
 }
 
 #contact-jotform {
-	padding-top:4%;
+	padding-top:5px;
+	right:70px;
+	position:relative;
+	width:690px;
+	height:611px;
 }
 
 
@@ -545,13 +619,14 @@ html, body { }
 
 .slides {
     padding: 0;
-    width: 800px;
-    height: 420px;
+    width: 650px;
+    height: 305px;
     display: block;
     margin: 0 auto;
     position: relative;
     margin-left: 13%;
     margin-bottom:3%;
+    right:55px;
 }
 
 .slides * {
