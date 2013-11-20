@@ -433,6 +433,7 @@ body {
 
 #home-page {
 	margin-top:7.5%;
+	height:665px;
 }
 
 #home-link {
@@ -443,6 +444,7 @@ body {
 	margin-top:42px;
 	margin-left:83px;
 	width:800px;
+	height:1637px;
 }
 #services-filler-image {
 	background: url('services-page.jpg');
@@ -460,7 +462,7 @@ body {
 	margin-top:12%;
 	margin-bottom:10%;
 	width:870px;
-	height:841px;
+	height:930px;
 }
 
 #about-us-filler-image {
@@ -555,6 +557,7 @@ body {
 			}
 #testimonials-page {
 	margin-top:29px;
+	height:1246px;
 }
 
 #testimonials-filler-image {
@@ -566,6 +569,7 @@ body {
 }
 
 #faqs-page {
+	height:1722px;
 }
 #faq-1 {
 	background: url('faq-1.jpg');
@@ -593,6 +597,7 @@ body {
 #contact-page {
 	margin-top:20px;
 	margin-left:63px;
+	height:846px;
 }
 
 #contact-header p {
